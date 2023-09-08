@@ -1,4 +1,6 @@
-package top.zxy;public class Main {
+package top.zxy;
+
+public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
     }
