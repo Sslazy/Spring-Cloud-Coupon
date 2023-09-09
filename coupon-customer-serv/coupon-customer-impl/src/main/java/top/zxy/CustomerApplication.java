@@ -9,7 +9,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication(scanBasePackages = {"top.zxy"})
-@EnableJpaAuditing
+//@EnableJpaAuditing
 @EnableTransactionManagement
 @EnableJpaRepositories(basePackages = {"top.zxy"})
 @EntityScan(basePackages = {"top.zxy"})

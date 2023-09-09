@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Product {
     private Long productId;
-    private long price;
+    private Long price;
     private Integer count;
     private Long shopId;
 }
