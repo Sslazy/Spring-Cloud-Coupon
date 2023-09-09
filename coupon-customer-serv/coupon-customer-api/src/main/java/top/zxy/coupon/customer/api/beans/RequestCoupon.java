@@ -13,5 +13,5 @@ public class RequestCoupon {
     private Long userId;
 
     @NotNull
-    private Long couponTemplate;
+    private Long couponTemplateId;
 }
