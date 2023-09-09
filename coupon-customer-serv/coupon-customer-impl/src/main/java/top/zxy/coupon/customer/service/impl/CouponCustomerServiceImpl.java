@@ -149,6 +149,7 @@ public class CouponCustomerServiceImpl implements CouponCustomerService {
             log.error("invalid check out request, order={}", order);
             throw new IllegalArgumentException("cart if empty");
         }
+        log.info("userId,{}",order.getUserId());
 
         Coupon coupon = null;
         if (order.getCouponId() != null) {

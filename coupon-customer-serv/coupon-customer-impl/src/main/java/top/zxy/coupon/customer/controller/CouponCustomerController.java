@@ -57,6 +57,7 @@ public class CouponCustomerController {
      */
     @PostMapping("placeOrder")
     public ShoppingCart checkout(@Valid @RequestBody ShoppingCart info) {
+        log.info("userId,{}",info.getUserId());
         return customerService.placeOrder(info);
     }
 
